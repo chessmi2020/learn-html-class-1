@@ -1,0 +1,29 @@
+div {
+  background-color: rgba(162, 135, 254, 1);
+  opacity: 1; /*보통잘안씀 글자까지 연해짐*/
+}
+
+
+h3 {
+font-size: 50px;
+color: green;
+}
+span {
+color: green;
+}
+
+/* htmk에서 id값이 box인 요소 한개 선택 - 고유해야됨 */
+#box {
+  background-color: 
+    #f39c12;
+}
+
+/* html애서 class값이 list인 모든 요소 선택 */
+.List {
+  list-style: none;
+}
+
+/* 내부간격을 0으로 설정 */
+#box ul {
+  padding: 0;
+}
