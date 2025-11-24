@@ -6,6 +6,99 @@
     <title>chessmi 홈페이지</title>
   </head>
   <body>
-    안녕하세요! 선릉
+    안녕하세요
+
+    <!-- form요소 -->
+    <form>
+      <!-- 사용자 텍스트 입력 요소 placeholder:설명부분=>ID를 입력해주세요-->
+        <h3>로그인</h3>
+        <span>ID: </span>
+        <input type="text" name="userid" placeholder="ID를 입력해주세요" required>
+    <br/>
+
+      <!-- 사용자 텍스트 입력 요소 placeholder:설명부분=>ID를 입력해주세요-->
+        <span>PWD: </span>
+        <input type="password" name="userpwd" placeholder="비밀번호를 입력해주세요" required/>
+      <!-- 제출버튼 -->
+        <!-- <input type="submit" value="로그인"/> -->
+          <button type"submit">
+            로그인
+          </button>
+    </form>
+
+    <form>
+      <h3>성별</h3>
+      <input id="male" type="radio" name="gender" value="male" checked />
+      <label for="male">남자</label>
+
+      <input id="female" type="radio" name="gender" value="female" />
+      <label for="female">여자</label>
+
+      <h3>관심사</h3>
+      <input id="travel" type="checkbox" name="interests" value="travel" checked />
+      <label for="travel">여행</label>
+      <input id="tech" type="checkbox" name="interests" value="tech" />
+      <label for="tech">기술</label>
+      <input id="song" type="checkbox" name="interests" value="song" />
+      <label for="song">노래</label>
+      <input id="money" type="checkbox" name="interests" value="money" />
+      <label for="money">돈</label>
+
+    </form>
+
+    <p>지금은 HTML 시간입니다</p>
+    <p>지금은 HTML 시간입니다</p>
+    <!-- 주석 단축키 : ctrl + 슬러시(/) -->
+    <!-- <div> division 의 약자로 여러개 의 컨텐츠를 묶어주는 컨테이너 역할함</div> -->
+    <div>
+      <!-- 여러게 속성 가능 target에 _blank사용으로 새탭 열기 -->
+      <a href="https://www.naver.com", target="_blank"> 
+        네이버로 페이지 이동</a>
+      </a>
+      <hr />
+      <button>
+      <a href="https://www.google.com/", target="_blank"> 
+        구글로 페이지 이동</a>
+      </a>
+      </button>
+      <hr />
+    </div>
+    <!-- 텍스트 관련 태그 =>제목태그 h1~!h6, 단락태그 p, 단어태그 span, 강조태그 strong, 수평선 hr -->
+      <h1>h1 제목입니다</h1>
+      <h2>h2 제목입니다</h2>
+      <h3>h3 제목입니다</h3>
+      <h4>h4 제목입니다</h4>
+      <h5>h5 제목입니다</h5>
+      <h6>h6 제목입니다</h6>
+
+      <hr />
+      <!-- 100자 정도 더미 텍스트 만들기 Lorem:100 strong 강조 hr -->
+      Lorem ipsum <span style="color: red">dolor</span> sit <strong>consectetur adipisicing</strong>  elit. Minima eveniet odio at eaque omnis sed corrupti dolorem, incidunt expedita illo? Quas consequatur ad nobis sunt quisquam minima nihil iure quasi aliquam natus, dolorem libero possimus itaque repudiandae blanditiis delectus vero accusantium est facilis! Voluptate dolorem rem molestias debitis quas fuga incidunt. Nihil nostrum numquam libero fugit consectetur, dolor ut quis harum, eos quam fugiat hic molestias veritatis sed blanditiis repellat non dolore pariatur ab vel nisi? Cupiditate sapiente maxime vero recusandae soluta? Eum explicabo quae illum. Excepturi vel quas praesentium perferendis deleniti atque placeat voluptatibus, corrupti quae eos architecto temporibus?
+      </p> 
+      <hr />
+
+    <!-- 리스트 태그 hr ol태그 사용하면 li태그에는 자동 숫자 붙음, ul unorder list 숫서중요하지 않음
+        LI태그는 단독 사용 못하고 OL, UL태그와 같이 사용 해야함 -->
+    <div>
+      <!-- 이미지에 주소를 넣어라 alt속성에는 이미지에 대한 설명 -->
+      <img src="https://i.namu.wiki/i/ubsM9d1iV4VuNE19PM36JZH400fLvsv46I5tuIF1Ayq1BUV-BT-csDvI6qUKTMACkCuRshdwT-oM6brgf6Jh-XU7zA2sit30cgpzwW7emEOhAWcXApFKAbH5HQdfxrsYesPfoirOTCrv-tutEq8RuA.webp" 
+      alt="골든 불렀던 헌트릭스 그룹"
+      width="500">
+    </div>
+      <h3>웹 기술의 3요소</h3>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+      <h3>내가 좋아하는 가수</h3>
+      <ul>
+        <li>헌트릭스</li>
+        <li>BTS0</li>
+        <li>부활</li>
+      </ul>
+    <div>
+
+    </div>
   </body>
-</html>
+</html> 
